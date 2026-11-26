@@ -1,0 +1,29 @@
+
+{
+  "cars": [
+    {
+      "id": "1",
+      "model": "Sonata",
+      "vendor": "Hyundai",
+      "year": 2022,
+      "engine": 2.4,
+      "horsePower": 185
+    },
+    {
+      "id": "2",
+      "model": "E-Class",
+      "vendor": "Mercedes",
+      "year": 2023,
+      "engine": 3.0,
+      "horsePower": 367
+    },
+    {
+      "id": "3",
+      "model": "Camry",
+      "vendor": "Toyota",
+      "year": 2021,
+      "engine": 2.5,
+      "horsePower": 203
+    }
+  ]
+}

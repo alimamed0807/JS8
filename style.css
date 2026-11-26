@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.part {
+    width: 45%;
+}
+
+input,
+.main-button,
+label {
+    font-size: 1.5em;
+    margin: 6px;
+    padding: 6px;
+}
+
+.create-form {
+    margin: 20px;
+}
+
+.create-form label {
+    display: block;
+}
+
+.create-form input {
+    display: block;
+    width: 90%;
+}
+
+.item {
+    border: 2px solid deepskyblue;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.item h1 {
+    font-size: 1.5em;
+}
+
+.item > button {
+    font-size: 1.2em;
+    padding: 6px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.line {
+    color: green;
+}

@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <section class="container">
+
+        <section class="part">
+
+            <section class="buttons">
+                <button class="main-button" onclick="GetAll()">Get All</button>
+                <button class="main-button" onclick="CreateNew()">Create New</button>
+            </section>
+
+            <section id="create-section" class="create-form" style="display: none;">
+
+                <h1>Create or Update</h1>
+
+                <form onsubmit="OnSubmit(event)" name="CarForm">
+
+                    <label>Model</label>
+                    <input type="text" name="model" required>
+
+                    <label>Vendor</label>
+                    <input type="text" name="vendor" required>
+
+                    <label>Year</label>
+                    <input type="number" name="year" required>
+
+                    <label>Engine</label>
+                    <input type="number" name="engine" step="0.1" required>
+
+                    <label>Horse Power</label>
+                    <input type="number" name="horsePower" required>
+
+                    <button type="submit" class="main-button" id="submit">
+                        Submit Add
+                    </button>
+
+                </form>
+
+            </section>
+
+        </section>
+
+        <section class="part">
+            <div id="result"></div>
+        </section>
+
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
